@@ -20,4 +20,3 @@ function frete_values() {
     };
     alert("O valor do frete é: " + valor_frete.toFixed(2));
 };
-frete_values()
