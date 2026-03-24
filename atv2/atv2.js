@@ -1,6 +1,6 @@
 function frete_values() {
-    let peso;
-    let valor_frete;
+    let peso = 0.00;
+    let valor_frete = 0.00;
 
     if (peso <= 5) {
         valor_frete = 10.00
@@ -18,6 +18,6 @@ function frete_values() {
         alert("O valor é invalido");
         frete_values()
     };
-
+    alert("O valor do frete é: " + valor_frete.toFixed(2));
 };
 frete_values()
