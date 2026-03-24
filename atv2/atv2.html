@@ -1,22 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Atividade 2</title>
-    
-    <script src="atv2/atv2.js"></script>
-    <link rel="stylesheet" href="atv1css">
-    
+    <link rel="stylesheet" href="atv2.css">
+
 </head>
+
 <body>
-     <div id="caixa">
-        <h1>Calculadora de Imposto</h1>
-        <input type="number" id="valor" placeholder="Digite o valor">
-        <input type="number" id="taxa" placeholder="Digite a porcentagem da taxa">
-        <h2 id="resultado"></h2>
-        <button id="botao">Calcular Imposto</button>
+    <div id="caixa">
+        <h1>Taxa de entrega</h1>
+        <input type="number" id="valor" placeholder="Digite o peso">
+        <p id="valor_frete"></p>
+        <button onclick="frete_values()">Calcular</button>
     </div>
     
+
+    <script src="atv2.js"></script>
 </body>
+
 </html>

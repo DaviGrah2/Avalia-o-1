@@ -4,12 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Atividade 3</title>
+    <link rel="stylesheet" href="atv3.css">
 </head>
 <body>
     <h1>Cálculo de preço com frete e desconto combinados</h1>
-    <input placeholder="Insira o valor total da compra" id="valor_compra"></input>
-    <input placeholder="Insira o valor do frete" id="valor_frete"></input>
-    <button id="calcular">Calcular</button>
+    <input type="number" placeholder="Insira o valor total da compra" id="valor_compra"></input>
+    <input type="number" placeholder="Insira o valor do frete" id="valor_frete"></input>
+    <button id="calcular" onclick="calcularPreco()" >Calcular</button>
+    <p id="resultado"></p>
     <script src="atv3.js"></script>
 </body> 
 </html>
